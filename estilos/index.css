@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Euclid Circular B Medium";
+  src: url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.eot");
+  src: url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.eot?#iefix")
+  format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.woff2")
+  format("woff2"),
+  url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.woff")
+  format("woff"),
+  url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.ttf")
+  format("truetype"),
+  url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.svg#Euclid Circular B Medium")
+  format("svg");
+  font-display: swap;
+}
+
+body {
+  background-image: url('../fundos/1331370.png');
+      color: #ffffff;
+      font-family: "Euclid Circular B Medium", Tahoma, Verdana, Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+  }
+
+.section-features .single-service {
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.section-features .single-service .part-1 {
+  padding: 40px 40px 25px;
+  border-bottom: 2px solid #1d1e23;
+}
+
+.section-features .single-service .part-1 i {
+  margin-bottom: 25px;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.section-features .single-service .part-1 .title {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.8em;
+}
+
+.section-features .single-service .part-2 {
+  padding: 30px 40px 40px;
+}
+
+.section-features .single-service .part-2 .description {
+  margin-bottom: 22px;
+  color: white;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+.section-features .single-service .part-2 a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.section-features .single-service .part-2 a i {
+  margin-right: 10px;
+  color: #f70037;
+}
+
+
+
+.footer p {
+  margin: 0;
+  line-height: 276px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.footer p a {
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  color: white;
+}
+  .profile-button {
+      position: fixed;
+      top: 10px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      box-shadow: 0 0 10px rgb(255, 255, 255);
+      background-color: #f7003600;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      cursor: pointer;
+      z-index: 999;
+  }
+
+  .profile-button a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 24px;
+  }
+
+  .cover-image {
+      width: 100%;
+      height: 200px;
+      background-image: url('sua_imagem_de_capa.jpg');
+      background-size: cover;
+      height: 100vh;
+      background-position: center;
+  }
