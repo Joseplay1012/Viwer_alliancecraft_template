@@ -69,23 +69,15 @@
 <body>
     <div class="container">
         <h2>Login ainda em Dev</h2>
-        <form action="index.html" method="post">
-            <input type="text" placeholder="Nome de usuário" name="username" pattern="admin" required>
-            <input type="password" placeholder="Senha" name="password" pattern="" title="Senha incorreta" required>
-            <button type="submit"><i class="fas fa-lock"></i> Login</button>
-        </form>
-    </div>
-    <script>
-        // Use JavaScript para fazer uma solicitação AJAX para buscar a senha do arquivo
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'senha.txt', true);
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                var senha = xhr.responseText;
-                document.getElementById('password').value = senha;
-            }
-        };
-        xhr.send();
-    </script>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="checkbox" id="acceptCookies">
+            <label for="acceptCookies">Aceitar cookies <p>Clique em Aceitar Cookies para logar!</p></label><br><br>
+            <button type="submit">Login</button>
+          </form>
+    <script src="login.js"></script>
 </body>
 </html>
